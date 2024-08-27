@@ -1,0 +1,18 @@
+# Ignorar todo
+*
+
+# Exceptuar el archivo .gitignore
+!.gitignore
+
+# Exceptuar los archivos y carpetas necesarios
+!public/
+!public/**
+
+!routes/
+!routes/**
+
+# Exceptuar los archivos con las extensiones permitidas
+!*.md
+!*.js
+!*.css
+!*.html

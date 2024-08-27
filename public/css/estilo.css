@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Helvetica+Neue:wght@400;700&display=swap');
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content {
+    display: flex;
+    max-width: 1000px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.left-panel {
+    flex: 1;
+    padding: 50px;
+    max-width: 600px;
+}
+
+.left-panel h1 {
+    color: #0866ff    ;
+    font-size: 60px;
+    font-weight: 700; /* Negrita más intensa */
+    margin-bottom: 20px;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.left-panel p {
+    font-size: 24px;
+    color: #1c1e21; /* Negro más intenso */
+    line-height: 1.5;
+    font-weight: 500; /* Negrita para las frases */
+}
+
+.right-panel {
+    flex: 1;
+    max-width: 400px;
+    padding: 20px;
+    text-align: center;
+}
+
+.login-box {
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para la caja */
+    border-radius: 8px;
+}
+
+.textbox {
+    margin-bottom: 15px;
+}
+
+.textbox input {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    background: #f5f6f7;
+    box-sizing: border-box;
+}
+
+.btn {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+    background-color: #0866ff    ;
+    color: white;
+    cursor: pointer;
+    font-weight: 700; /* Negrita más intensa */
+    margin-bottom: 10px;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.btn:hover {
+    background-color: #165ecf;
+}
+
+.footer {
+    margin-top: 20px;
+}
+
+.footer a {
+    color: #1877f2;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.1); /* Línea divisora más tenue */
+}
+
+.signup {
+    background-color: #42b72a; /* Verde más suave */
+}
+
+.signup:hover {
+    background-color: #42b72a; /* Verde más oscuro en hover */
+}
+
+.page-link {
+    font-size: 14px;  /* Tamaño más pequeño */
+    color: #737373;  /* Color gris */
+    margin-top: 20px;
+}
+
+.page-link a {
+    color: #1c1e21;  /* Color oscuro para el enlace */
+    text-decoration: none;
+    font-weight: 700; /* Negrita para la frase */
+}
+
+.page-link a:hover {
+    text-decoration: underline;
+}
